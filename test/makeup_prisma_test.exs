@@ -1,7 +1,8 @@
 defmodule MakeupPrismaTest do
   use ExUnit.Case
-  doctest MakeupPrisma
   alias Makeup.Lexer.Postprocess
+  alias Makeup.Lexers.MakeupPrisma
+  doctest MakeupPrisma
 
   defp lex(text) do
     text
