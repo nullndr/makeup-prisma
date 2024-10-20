@@ -1,4 +1,4 @@
-defmodule MakeupPrisma.Application do
+defmodule Makeup.Lexers.MakeupPrisma.Application do
   @moduledoc false
   use Application
 
@@ -8,7 +8,7 @@ defmodule MakeupPrisma.Application do
   def start(_type, _args) do
     Registry.register_lexer(MakeupPrisma,
       options: [],
-      names: ["prisma"],
+      names: ["prisma", "prisma-schema"],
       extensions: ["prisma"]
     )
 

@@ -25,7 +25,7 @@ defmodule MakeupPrisma.MixProject do
   def application do
     [
       extra_applications: [],
-      mod: {MakeupPrisma.Application, []}
+      mod: {Makeup.Lexers.MakeupPrisma.Application, []}
     ]
   end
 
