@@ -1,7 +1,7 @@
 defmodule MakeupPrisma.MixProject do
   use Mix.Project
 
-  @url "https://github.com/nullndr/makeup_prisma"
+  @url "https://gitea.nullndr.com/nullndr/makeup-prisma"
 
   def project do
     [
